@@ -99,7 +99,7 @@
 <tr><td><a href="http://www.colorcombos.com/colors/FFFFFF" target="_blank">#FFFFFF <img src="img/link.png"></a></td><td>FF</td><td>FF</td><td>FF</td><td style="background-color:#FFFFFF"></td></tr>
 </table>
 <br>
-<p>How do you get other colors like pink, cyan, or grey?  <a href="http://www.colorpicker.com/" target="_blank">You mix them together! <img src="img/link.png"></a></p>
+<p>How do you get other colors like <span style="color:#DFDF44">yellow #DFDF44</span>, <span style="color:#FF1CAE">pink #FF1CAE</span>, <span style="color:#00DCDC">cyan #00DCDC</span>, <span style="color:#8B4513">brown #8B4513</span>, or <span style="color:#c0c0c0">grey #C0C0C0</span>?  <a href="http://www.colorpicker.com/" target="_blank">You mix them together! <img src="img/link.png"></a></p>
 <p>There are actually over <strong><em>16 million color codes</em></strong> to choose from.</p>
 </div>
 
