@@ -51,7 +51,6 @@
 <div id="divs" class="row-fluid">
 <h3>Making Boxes</h3>
 
-<?include "save.php"?>
 </div>
 
 <div id="marpad" class="row-fluid">
@@ -74,6 +73,8 @@
 
 </div>
 
+<?include "save.php"?>
+
 <div class="page-header"><h2>Fonts and Colors</h2></div>
 
 <div id="fonts" class="row-fluid">
@@ -90,6 +91,8 @@
 <h3>Color Pallets</h3>
 
 </div>
+
+<?include "save.php"?>
 
 <div class="page-header"><h2>Images</h2></div>
 
@@ -113,6 +116,8 @@
 
 </div>
 
+<?php include "save.php"?>
+
 <div class="page-header"><h2>Making a Page</h2></div>
 
 <div id="basiclayout" class="row-fluid">
@@ -129,6 +134,8 @@
 <h3>Fonts and Colors</h3>
 
 </div>
+
+<?php include "save.php"?>
 
 <!--end-->
 </div>
