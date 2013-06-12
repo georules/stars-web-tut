@@ -6,6 +6,9 @@
 <link href="/geo/course/bootstrap.css" type="text/css" rel="stylesheet"/>
 <link href="/geo/course/bootstrap-responsive.css" type="text/css" rel="stylesheet"/>
 <style>
+.center {
+	text-align:center;
+}
 p {
 	margin-left:10px;
 }
@@ -18,7 +21,7 @@ position:relative;
 	line-height:25px;
 	margin-left:50px;
 }
-h2 {
+h3 {
 	padding-top:30px;
 }
 @media(max-width:979px){

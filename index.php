@@ -17,7 +17,6 @@
           <li><a href="#colorcode">Color Codes</a></li>
           <li><a href="#colorweb">Color Pallets</a></li>
           <li><a href="#usingcolors">Using Colors</a></li>
-          <li><a href="#lotscolors">Lots of Colors</a></li>
           <li class="nav-header">Images</li>
           <li><a href="#upimg">Uploading Images</a></li>
           <li><a href="#useimg">Using Images</a></li>
@@ -45,6 +44,7 @@
 <p>We will copy in links to our websites into this text editor to save them.</p>
 
 <p>Ask nearby helpers when you have questions!</p>
+</div>
 
 <div class="page-header"><h2>Making Boxes and Circles</h2></div>
 
@@ -84,11 +84,37 @@
 
 <div id="colorcode" class="row-fluid">
 <h3>Color Codes</h3>
-
+<p>Colors on the web work with special hexidecimal codes.  Rather than counting from 0 to 9, a hexidecmial number counts from 0 to F.  How do you count with letters?  Like this:</p>
+<h4 class="well center">0 1 2 3 4 5 6 7 8 9 A B C D E F</h4>
+<p>Pretty different!  What this lets us do is count to bigger numbers with a smaller number of characters.  Color codes include how much <span style="color:red">red you want</span>, how much <span style="color:green;">green you want</span>, and how much <span style="color:blue;">blue you want</span>.  These are the primary colors of light.  They tell the pixels in your screen how bright these colors should be.</p>
+<table class="table table-striped table-bordered" style="margin:0 auto">
+<tr><th>Code</th><th style="color:red">Red</th><th style="color:green">Green</th><th style="color:blue">Blue</th><th>Color</th></tr>
+<tr><td><a href="http://www.colorcombos.com/colors/000000" target="_blank">#000000 <img src="img/link.png"></a></td>
+<td>00</td><td>00</td><td>00</td><td style="background-color:#000000"></td></tr>
+<tr><td><a href="http://www.colorcombos.com/colors/FF0000" target="_blank">#FF0000 <img src="img/link.png"></a></td>
+<td>FF</td><td>00</td><td>00</td><td style="background-color:#FF0000"></td></tr>
+<tr><td><a href="http://www.colorcombos.com/colors/00FF00" target="_blank">#00FF00 <img src="img/link.png"></a></td>
+<td>00</td><td>FF</td><td>00</td><td style="background-color:#00FF00"></td></tr>
+<tr><td><a href="http://www.colorcombos.com/colors/0000FF" target="_blank">#0000FF <img src="img/link.png"></a></td><td>00</td><td>00</td><td>FF</td><td style="background-color:#0000FF"></td></tr>
+<tr><td><a href="http://www.colorcombos.com/colors/FFFFFF" target="_blank">#FFFFFF <img src="img/link.png"></a></td><td>FF</td><td>FF</td><td>FF</td><td style="background-color:#FFFFFF"></td></tr>
+</table>
+<br>
+<p>How do you get other colors like pink, cyan, or grey?  <a href="http://www.colorpicker.com/" target="_blank">You mix them together! <img src="img/link.png"></a></p>
+<p>There are actually over <strong><em>16 million color codes</em></strong> to choose from.</p>
 </div>
 
 <div id="colorweb" class="row-fluid">
 <h3>Color Pallets</h3>
+<p>Choosing a group of colors which look nice together can be done by choosing a color pallet.  Use the <a href="http://colorschemedesigner.com" target="_blank">Color Scheme Designer <img src="img/link.png"></a> to choose a set of colors that you like.  Write down some hex codes that you want to remember for later.</p>
+
+<img src="img/scheme.png">
+<img src="img/wheel.png">
+<img src="img/ccode.png">
+
+</div>
+
+<div id="usingcolors" class="row-fluid">
+<h3>Using Colors</h3>
 
 </div>
 
