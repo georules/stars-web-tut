@@ -26,6 +26,8 @@
           <li><a href="#basiclayout">A Basic Web Page</a></li>
           <li><a href="#write">Write Content</a></li>
           <li><a href="#fontscolors">Fonts and Colors</a></li>
+					<li class="nav-header">Do More</li>
+					<li><a href="#domore">More things to Do</a></li>
       </ul>
     </div>
 
@@ -162,6 +164,25 @@
 </div>
 
 <?php include "save.php"?>
+
+<div class="page-header"><h2>Do More</h2></div>
+<div id="domore" class="row-fluid">
+<h3>More things to Do</h3>
+<p>Draw pictures with code at <a target="_blank" href="https://www.khanacademy.org/cs/tutorials/drawing">Khan Academy <img src="img/link.png"></a></p>
+<p>Play with Javascript:
+<ol>
+<li><a href="http://tributary.io/tributary/2958568/" target="_blank">Rainbow lines</a></li>
+<li><a href="http://tributary.io/inlet/2958511" target="_blank">Animated box</a></li>
+<li><a href="http://tributary.io/inlet/3343586" target="_blank">Rainbow triangles</a></li>
+<li><a href="http://tributary.io/inlet/5342452" target="_blank">Circle Geometries</a></li>
+<li><a href="http://tributary.io/inlet/5342691" target="_blank">Circle Geometries Animated</a></li>
+<li><a href="http://tributary.io/inlet/5530602" target="_blank">Lava Circles</a></li>
+
+</ol>
+
+</div>
+
+
 
 <!--end-->
 </div>

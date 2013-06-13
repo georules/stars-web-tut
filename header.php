@@ -11,6 +11,7 @@
 }
 p {
 	margin-left:10px;
+	line-height:120%;
 }
 body {
 padding-top:50px;
