@@ -6,6 +6,10 @@
 <link href="/geo/course/bootstrap.css" type="text/css" rel="stylesheet"/>
 <link href="/geo/course/bootstrap-responsive.css" type="text/css" rel="stylesheet"/>
 <style>
+.affix,.navbar-fixed-top{
+	-webkit-transform: scale3d(1,1,1);
+}
+
 blockquote {
 	margin: 25px 0px;
 	border-left: 5px solid #f66;
@@ -67,7 +71,7 @@ color:red;
 </style>
 <title>FSU STARS Web Coding</title>
 </head>
-<body>
+<body data-target=".datsidebar" data-spy="scroll">
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">

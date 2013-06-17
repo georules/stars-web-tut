@@ -26,8 +26,8 @@ Office: 432 Diffenbaugh (<a href="http://goo.gl/maps/gZiF">map</a>)
 <script src="/geo/course/bootstrap-affix.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-var offset = 150;
-$('body').scrollspy({offset:offset});//{min:$('.nav').offset().top+1000});
+//var offset = 250;
+//$('body').scrollspy({offset:offset});//{min:$('.nav').offset().top+1000});
 
 $('.nav li a').click(function(event) {
 //    event.preventDefault();

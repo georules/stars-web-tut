@@ -2,8 +2,8 @@
 
 <div class="container">
   <div class="row">
-    <div class="span3 sidebar">
-      <ul class="well2 nav nav-list sidenav" data-spy="affix" data-offset-bottom="300">
+    <div class="span3 sidebar datsidebar">
+      <ul class="well2 nav nav-list sidenav affix" data-spy="affix" data-offset-bottom="250" data-offset-top="41">
           <li class="nav-header">FSU STARS Web Coding</li>
           <li><a href="#start">Getting Started</a></li>
           <li class="nav-header">Making Boxes and Circles</li>
@@ -124,9 +124,8 @@
 
 <div class="page-header"><h2>Fonts and Colors</h2></div>
 
-<p>Now that you've played with boxes, let's get to the fun stuff.<p>
-
-<div id="fonts" class="row-fluid">
+<div id="fonts">
+<div class="row-fluid">
 <h3>Choosing Fonts</h3>
 <p>There are three main types of fonts: <span style="font-family:serif;font-size:150%"><strong>Serif</strong>,</span> <span style="font-size:150%;font-family:sans-serif"><strong>Sans-Serif</strong>,</span> and <span style="font-size:150%;font-family:monospace"><strong>Monospace</strong></span>.  Check them out at this <a href="http://cssdesk.com/4Ft8K" target="blank">CSS Desk on Fonts! <img src="img/link.png"></a></p>
 <p>There are only so many fonts that <a href="http://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank">all web browsers have. <img src="img/link.png"></a>.  If you want to use other fancy fonts, there are websites like the <a href="http://www.google.com/fonts/" target="_blank">Google Fonts website <img src="img/link.png"></a> that will show you how to use more varied fonts.</p>
@@ -160,11 +159,11 @@
 <li>Try CSS codes like <blockquote>font-size:150%;</blockquote> or <blockquote>font-size:50%</blockquote> and see what happens to the font.</li>
 </ol>
 </div>
-
-
 <?php include "save.php"?>
+</div>
 
-<div id="colorcode" class="row-fluid">
+<div id="colorcode"> 
+<div class="row-fluid">
 <h3>Color Codes</h3>
 <p>Colors on the web work with special hexidecimal codes.  Rather than counting from 0 to 9, a hexidecmial number counts from 0 to F.  How do you count with letters?  Like this:</p>
 <h4 class="well center">0 1 2 3 4 5 6 7 8 9 A B C D E F</h4>
@@ -184,8 +183,10 @@
 <p>How do you get other colors like <span style="color:#DFDF44">yellow #DFDF44</span>, <span style="color:#FF1CAE">pink #FF1CAE</span>, <span style="color:#00DCDC">cyan #00DCDC</span>, <span style="color:#8B4513">brown #8B4513</span>, or <span style="color:#c0c0c0">grey #C0C0C0</span>?  <a href="http://www.colorpicker.com/" target="_blank">You mix them together! <img src="img/link.png"></a></p>
 <p>There are actually over <strong><em>16 million color codes</em></strong> to choose from.</p>
 </div>
+</div>
 
-<div id="colorweb" class="row-fluid">
+<div id="colorweb">
+<div class="row-fluid">
 <h3>Color Palettes</h3>
 <p>Choosing a group of colors which look nice together can be done by choosing a color pallet.  Use the <a href="http://colorschemedesigner.com" target="_blank">Color Scheme Designer <img src="img/link.png"></a> to choose a set of colors that you like.  Write down some hex codes that you want to remember for later.</p>
 </div>
@@ -220,7 +221,7 @@
 </ol>
 <p>Try to identify the color palettes used on websites you like.</p>  
 </div>
-
+</div>
 <div id="usingcolors"> 
 <div class="row-fluid">
 <h3>Using Colors</h3>
@@ -248,39 +249,50 @@
 </div>
 <?include "save.php"?>
 </div>
+
 <div class="page-header"><h2>Images</h2></div>
 
-<div id="upimg" class="row-fluid">
+<div id="upimg">
+<div class="row-fluid">
 <h3>Uploading Images</h3>
-
+<?php include "lorem.php"?>
+</div>
 </div>
 
-<div id="useimg" class="row-fluid">
+<div id="useimg"> 
+<div class="row-fluid">
 <h3>Using Images</h3>
+<?php include "lorem.php"?>
 
 </div>
 
 <?php include "save.php"?>
+</div>
 
 <div class="page-header"><h2>Making a Page</h2></div>
 
 <div id="basiclayout" class="row-fluid">
 <h3>A Basic Web Page</h3>
-
+<?php include "lorem.php"?>
 </div>
 
-<div id="write" class="row-fluid">
+<div id="write">
+<div class="row-fluid">
 <h3>Write Content</h3>
+<?php include "lorem.php"?>
 
 </div>
+</div>
 
-<div id="fontscolors" class="row-fluid">
+<div id="fontscolors">
+<div class="row-fluid">
 <h3>Fonts and Colors</h3>
+<?php include "lorem.php"?>
 
 </div>
 
 <?php include "save.php"?>
-
+</div>
 <div class="page-header"><h2>Do More</h2></div>
 <div id="domore" class="row-fluid">
 <h3>More things to Do</h3>
