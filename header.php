@@ -6,6 +6,10 @@
 <link href="/geo/course/bootstrap.css" type="text/css" rel="stylesheet"/>
 <link href="/geo/course/bootstrap-responsive.css" type="text/css" rel="stylesheet"/>
 <style>
+blockquote {
+	margin: 25px 0px;
+	border-left: 5px solid #f66;
+}
 .center {
 	text-align:center;
 }
