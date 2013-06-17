@@ -15,7 +15,7 @@
           <li class="nav-header">Fonts and Colors</li>
           <li><a href="#fonts">Choosing Fonts</a></li>
           <li><a href="#colorcode">Color Codes</a></li>
-          <li><a href="#colorweb">Color Pallets</a></li>
+          <li><a href="#colorweb">Color Palettes</a></li>
           <li><a href="#usingcolors">Using Colors</a></li>
           <li class="nav-header">Images</li>
           <li><a href="#upimg">Uploading Images</a></li>
@@ -106,13 +106,39 @@
 </div>
 
 <div id="colorweb" class="row-fluid">
-<h3>Color Pallets</h3>
+<h3>Color Palettes</h3>
 <p>Choosing a group of colors which look nice together can be done by choosing a color pallet.  Use the <a href="http://colorschemedesigner.com" target="_blank">Color Scheme Designer <img src="img/link.png"></a> to choose a set of colors that you like.  Write down some hex codes that you want to remember for later.</p>
+</div>
 
+<div class="row-fluid">
+<div class="span6">
 <img src="img/scheme.png">
+<p>Choose a grouping of colors that you like.  You do not have to make use of all of the colors the designer suggests for you.  This tool simply shows you combinations of colors that may compliement each other across the color wheel.</p>
+</div>
+<div class="span5">
+<p>Move the dots to choose colors.</p>
 <img src="img/wheel.png">
-<img src="img/ccode.png">
+</div>
+</div>
+<br/>
+<div class="row-fluid">
+<div class="span6">
+<img src="img/ccode.png" class="pull-left">
+</div>
+<div class="span5">
+<p>See the color selections you've made.  You can also choose "light page example" and "dark page example" to see how the colors you chose might be used on a website.</p>
+</div>
 
+</div>
+<br/>
+<div class="row-fluid">
+<p>Try some more websites to choose color palettes.  What tool do you like best?</p> 
+<ol>
+<li><a href="http://www.colourlovers.com/palettes" target="_blank">http://www.colourlovers.com/palettes</a></li>
+<li><a href="http://www.colorcombos.com/" target="_blank">http://www.colorcombos.com/</a></li>
+<li><a href="http://kuler.adobe.com" target="_blank">http://kuler.adobe.com</a></li>
+</ol>
+<p>Try to identify the color palettes used on websites you like.</p>  
 </div>
 
 <div id="usingcolors" class="row-fluid">
