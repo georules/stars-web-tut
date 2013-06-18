@@ -9,10 +9,14 @@
 .affix,.navbar-fixed-top{
 	-webkit-transform: scale3d(1,1,1);
 }
+.datsidebar {
+
+}
 
 blockquote {
 	margin: 25px 0px;
 	border-left: 5px solid #f66;
+	font-size:90%;
 }
 .center {
 	text-align:center;
@@ -31,7 +35,7 @@ position:relative;
 	margin-left:50px;
 }
 h3 {
-	padding-top:30px;
+	padding-top:35px;
 }
 @media(max-width:979px){
    .affix {
@@ -44,7 +48,7 @@ h3 {
 color:red;
 }
 .affix-bottom {
-   bottom: 300px;
+   bottom: 175px;
 	position: absolute;
 }
 .affix {

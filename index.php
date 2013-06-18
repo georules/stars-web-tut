@@ -3,7 +3,7 @@
 <div class="container">
   <div class="row">
     <div class="span3 sidebar datsidebar">
-      <ul class="well2 nav nav-list sidenav affix" data-spy="affix" data-offset-bottom="250" data-offset-top="41">
+      <ul class="well2 nav nav-list sidenav affix" data-spy="affix" data-offset-bottom="175" data-offset-top="0">
           <li class="nav-header">FSU STARS Web Coding</li>
           <li><a href="#start">Getting Started</a></li>
           <li class="nav-header">Making Boxes and Circles</li>
@@ -20,11 +20,8 @@
           <li class="nav-header">Images</li>
           <li><a href="#upimg">Uploading Images</a></li>
           <li><a href="#useimg">Using Images</a></li>
-          <li class="nav-header">Making a Page</li>
+          <li class="nav-header">Do More</li>
           <li><a href="#basiclayout">A Basic Web Page</a></li>
-          <li><a href="#write">Write Content</a></li>
-          <li><a href="#fontscolors">Fonts and Colors</a></li>
-					<li class="nav-header">Do More</li>
 					<li><a href="#domore">More things to Do</a></li>
       </ul>
     </div>
@@ -53,13 +50,13 @@
 <p>Boxes are made on webpages using a "div tag". A divider (div) is a section of a page that makes a box.  Boxes can have widths and heights, borders, margins, and paddings.</p>
 <img src="img/box-model.gif">
 <p>To decide what a box should look like, you need to give it a class name in HTML (HyperText Markup Language).  That class name is styled in CSS (Cascading Style Sheets).</p>
-<p>Open this website to see HTML and CSS code.  <a href="http://cssdesk.com/zbTNh" target="_blank">CSS Desk Hello World<img src="img/link.png"></a> you can edit HTML/CSS and see the result of your code instantly.</p>
+<p>Open this website to see HTML and CSS code.  <a href="http://cssdesk.com/zbTNh" target="_blank">CSS Desk Hello World <img src="img/link.png"></a> you can edit HTML/CSS and see the result of your code instantly.</p>
 <img src="img/cssdesk1.png">
 </div>
 
 <div id="marpad" class="row-fluid">
 <h3>Margin and Padding</h3>
-
+<p>Use the <a href="http://cssdesk.com/zbTNh" target="_blank">CSS Desk Hello World <img src="img/link.png"></a> that you have open for this part.</p>
 <p>On the CSS Desk Hello World page, you can see that margin and padding is styled for the class ".hello".  This is done by selecting a certain number of pixels that you want for margin and padding.</p>
 <p>Margins and Paddings are styled by choosing the number of pixels to have on the top, right, bottom, and left sides of the box.</p>
 <ol>
@@ -73,13 +70,14 @@
 &nbsp;&nbsp;padding: 100px;<br>
 &nbsp;&nbsp;text-align:center;<br>
 }</blockquote>
-<li>This box used just one margin pixel number and one padding pixel number to specify what margin and padding to have all around the box.  It's a shortcut so that you don't have to specify the top, right, bottom, left every time if you want these numbers to be the same</li>
+<li>This box has just one margin and padding pixel number.  This is a shortcut so that you don't have to specify the top, right, bottom, left every time if you want these numbers to be the same</li>
 <li>Choose a margin and padding you like for these boxes.</li>
 </ol>
 </div>
 
 <div id="borders" class="row-fluid">
 <h3>Adding Borders</h3>
+<p>Use the <a href="http://cssdesk.com/zbTNh" target="_blank">CSS Desk Hello World <img src="img/link.png"></a> that you have open for this part.</p>
 <p>Borders can be added to boxes.  Try this border for the '.hello' class.</p>
 <blockquote>border: 5px solid #000000;</blockquote>
 <p>The border has how many pixels large it should be, what kind of border, and then a color.  We will talk about color codes later.</p>
@@ -255,15 +253,23 @@
 <div id="upimg">
 <div class="row-fluid">
 <h3>Uploading Images</h3>
-<?php include "lorem.php"?>
+<ol><li>Log on to <a href="http://www.photobucket.com/" target="_blank">photobucket.com <img src="img/link.png"></a></li><li>Username: fsustars Password: fsufsufsu</li>
+<li>Upload your image</li><li>Click on the image and get the "direct link".</li><li>This direct link is called a URL -- a uniform resource locator.  URLs are how you find websites and images on the web.</li></ol>
 </div>
 </div>
 
 <div id="useimg"> 
 <div class="row-fluid">
 <h3>Using Images</h3>
-<?php include "lorem.php"?>
+<p>Using images is pretty easy once you have the direct link URL!  Just copy the URL and put it in the quotes after the src=</p>
 
+<blockquote>
+&lt;img src=&quot;http://i1363.photobucket.com/albums/r714/fsustars/Cats_wallpapers_410_zpsbae96e88.jpg&quot;&gt;
+</blockquote>
+
+<p>Put in some of your image URLs into the boxes on this <a href="http://cssdesk.com/6nsg4" target="_blank"> CSS Desk for Images <img src="img/link.png"></a></p>
+
+<p>If your image is too large, you will need to resize it and reupload it to get a new URL.</p>
 </div>
 
 <?php include "save.php"?>
@@ -271,29 +277,21 @@
 
 <div class="page-header"><h2>Making a Page</h2></div>
 
-<div id="basiclayout" class="row-fluid">
+<div id="basiclayout">
+<div class="row-fluid">
 <h3>A Basic Web Page</h3>
-<?php include "lorem.php"?>
-</div>
+<p>You now have seen everything needed to make a basic web page.  Most webpages have a simple layout with a header, content area, and a footer.  Use the following code to make your first webpage.  Feel free to write it about anything you like, include images and baners you have created.  Use colors and fonts to personalize your page.</p>
 
-<div id="write">
-<div class="row-fluid">
-<h3>Write Content</h3>
-<?php include "lorem.php"?>
+<p>You can just work on the CSS Desk layout, or you can learn how to take the HTML/CSS code out of CSS Desk and make your own HTML/CSS files.</p>
 
-</div>
-</div>
-
-<div id="fontscolors">
-<div class="row-fluid">
-<h3>Fonts and Colors</h3>
-<?php include "lorem.php"?>
+<ol><li><a href="http://cssdesk.com/sHhqY" target="_blank">CSS Desk for a Basic Web Page Layout <img src="img/link.png"></a></li>
+<li>Create a folder on your computer</li><li>Open a text editor</li><li>Copy the HTML into a new file, save it as index.html</li><li>Copy the CSS into a new file, save it as style.css</li><li>Use the following code at the top of your HTML page to link your HTML and CSS files together:
+<blockquote>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot;&gt;</blockquote></li><li>Open your index.html file in a browser to see the full page.</li></ol>
 
 </div>
 
-<?php include "save.php"?>
 </div>
-<div class="page-header"><h2>Do More</h2></div>
+
 <div id="domore" class="row-fluid">
 <h3>More things to Do</h3>
 <p>The following codes use JavaScript to draw and animate.  Play with them if you have more time!</p>
